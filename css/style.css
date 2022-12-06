@@ -1,0 +1,138 @@
+html {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+    width:800px ;
+    margin:0 auto;
+}
+/* MUNE設定 */
+h1{
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+h1 a:link{
+    text-decoration: none;
+}
+
+h1 a:hover {
+    text-decoration: none;
+  }
+
+h1 a:active {
+    text-decoration: none;
+  }
+
+h1 a:hover {
+    color: black;
+  }
+/* 導覽列設定 */
+.header-nav{
+    width: 600px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.nav-list a:link{
+    text-decoration: none;
+}
+
+.nav-list a:visited {
+    text-decoration: none;
+  }
+
+.nav-list a:hover {
+    text-decoration: none;
+  }
+
+.nav-list a:active {
+    text-decoration: none;
+  }
+
+  /* unvisited link */
+a:link {
+    color: black;
+  }
+
+  /* visited link */
+a:visited {
+    color: black;
+  }
+
+  /* mouse over link */
+a:hover {
+    color: gray;
+  }
+
+  /* selected link */
+a:active {
+    color: black;
+  }
+
+.nav{
+    display: flex ;
+}
+.nav-list{
+    list-style: none;
+    margin-right: 40px;
+}
+
+/* index菜單內容 */
+.pic{
+    display: flex ;
+}
+.pic-text{
+    list-style: none;
+    margin-right: 20px;
+}
+
+h1{
+    font-size: 65px;
+}
+
+ul h3{
+    font-size: 20px;
+}
+
+tr h3{
+    font-size: 20px;
+}
+
+h3.pic-text{
+    font-size: 20px;
+}
+
+.price{
+    color: rgb(214, 57, 57); font-size: 22px;
+}
+
+.cont-p{
+    font-style: italic;
+}
+
+/* 分頁圖片菜單設定 */
+.div-all{
+    width: 780px; ;
+    height:280px;
+    margin-left:10px ;
+    padding:20px ;
+}
+
+.div-img{
+    width: 300px;
+    height: 100%;
+    float: left;
+}
+
+.div-img img{
+    width: 100%;
+}
+
+.div-cont{
+    width: 440px;
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+}
